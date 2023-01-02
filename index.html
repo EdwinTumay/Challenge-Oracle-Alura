@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Challenge Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo" class="logo">
+    </header>
+
+    <main>
+        <section class="box-left" id="box-left">
+            <textarea type="sumit"  class="contenedor-texto" id="contenedor-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="frame-1">
+                <h6><iconify-icon icon="bi:exclamation-circle-fill" id="icon-e"></iconify-icon> Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="frame-3">
+                <button type="button" class="encriptador" id="encriptador" onclick="encriptar()" ><span>Encriptar</span></button>
+                <button type="button" class="descriptador" id="descriptador" onclick="desencriptar()" ><span>Desencriptar</span></button>
+            </div>
+        </section>
+
+        <section class="box-right" id="box-right">
+            <div class="rectangle-1" id="rectangle-1">
+                <img src="img/Muñeco.png" id="img-munheco" alt="Personaje con lupa">
+                <textarea  class="text-cifrado" id="text-cifrado"></textarea>
+                <div class="box-btn-copiado"  id="box-btn-copiado">
+                    <button class="btn-copiado" id="btn-copiado" onclick="copiar()"><span>Copiar</span></button>
+                </div>
+            </div>
+            <div class="frame-5" id="frame-5">
+                <p class="mensaje-1">Ningún mensaje fue <span class="salto-linea">encontrado</span></p>
+                <p class="mensaje-2">Ingresa el texto que desees <span class="salto-linea3">encriptar o <span class="salto-linea2">desencriptar.</span></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img  id="img-logo-alura" src="img/alura-logo.1647533644.svg" alt="logo alura">
+        <p class="copyright">&copy Copyright Desarrollado por Edwin Tumay - 2022</p>
+    </footer>
+            
+    </body>
+</html>
