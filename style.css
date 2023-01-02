@@ -100,11 +100,12 @@ header img{
     text-align: center;
     color: #FFFFFF;
 }
+
 .encriptador:active{
     background: #D8DFE8;
     border: 1px solid #0A3871;
-
 }
+
 .encriptador span:active{
     color: #0A3871;
 }
@@ -121,7 +122,6 @@ header img{
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    
 }
 
 .descriptador span {
@@ -135,9 +135,11 @@ header img{
     text-align: center;
     color: #0A3871;
 }
+
 .descriptador:active{
     background: #0A3871;
 }
+
 .descriptador span:active{
     color: #FFFFFF;
 }
@@ -159,8 +161,7 @@ header img{
     width: 336px;
     height: 304px;
     left: 32px;
-    top: 243px; 
-    
+    top: 243px;    
 }
 
 .frame-5{
@@ -169,7 +170,6 @@ header img{
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    
     position: absolute;
     width: 336px;
     height: 122px;
@@ -196,7 +196,6 @@ header img{
 }
 
 .mensaje-1{
-
     width: 336px;
     height: 58px;
     font-family: 'Inter';
@@ -206,12 +205,12 @@ header img{
     line-height: 120%;
     text-align: center;
     color: #343A40;
-
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
 }
+
 .salto-linea{
         display: block;
 }
@@ -226,7 +225,6 @@ header img{
     line-height: 150%;
     text-align: center;
     color: #495057;
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -243,7 +241,6 @@ header img{
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-    
     position: absolute;
     width: 336px;
     height: 67px;
@@ -303,12 +300,13 @@ footer img{
     body{
         zoom: 100%;
     }
+
     main{
         width: auto;
         height: 1384px;
         z-index: 0;
- 
     }
+
     header img{
         position: absolute;
         width: auto;
@@ -318,13 +316,13 @@ footer img{
         bottom: 89.8%;
         z-index: 10;
     }
+
     .contenedor-texto, .frame-1, .frame-3, .frame-5, .rectangle-1{
         left: 5.2083%;
         right: 5.2083%;
         margin: 0 auto;
         width: 89.58%;
     }
-
 
     .contenedor-texto{
         position: absolute;
@@ -353,6 +351,7 @@ footer img{
         height: 67px;
         top: 870px;
     }
+
     .encriptador{
         display: flex;
         flex-direction: row;
@@ -367,8 +366,8 @@ footer img{
         order: 0;
         flex-grow: 1;
     }
-    .encriptador span{
 
+    .encriptador span{
         width: 36.98%;
         height: 19px;
         font-family: 'Inter';
@@ -448,7 +447,6 @@ footer img{
     .text-cifrado{
         width:81.25%;
         height: 180px;
-
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -478,7 +476,8 @@ footer img{
      
     .salto-linea{
         display: inline-block;
-}
+    }
+
     .mensaje-2{
         width: 100%;
         height: 24px;
@@ -494,11 +493,12 @@ footer img{
         align-self: stretch;
         flex-grow: 0;
     }
+
     .salto-linea2{
         display: inline-block;
-}
+    }
+
     .btn-copiado{
-        
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
@@ -515,6 +515,7 @@ footer img{
         align-self: stretch;
         flex-grow: 0;
     }
+
     footer{
         width: 100%;
     }
@@ -534,8 +535,8 @@ footer img{
         background: #F3F5FC;
         border-radius: 12.5px;
         padding-bottom:24px ;
-
     }
+
     header{
         position: absolute;
         width: 375px;
@@ -543,8 +544,8 @@ footer img{
         left: 0px;
         top: 0px;   
     }
+
     header img{
-       
         left: -28px;
         right: 87.47%;
         top: 25%;
@@ -558,6 +559,7 @@ footer img{
         left: 16px;
         top: 152px;
     }
+
     .frame-1{
         display: flex;
         flex-direction: row;
@@ -570,6 +572,7 @@ footer img{
         left: 16px;
         top: 645.5px; /* 451 840*/
     }
+
     .frame-3{
         display: flex;
         flex-direction: column;
@@ -580,7 +583,7 @@ footer img{
         width: 343px;
         height: 158px;
         left: 16px;
-        top: 679.5px;  /* 485 874 */
+        top: 679.5px;
     }
     
     .encriptador{
@@ -593,8 +596,8 @@ footer img{
         height: 67px;
         background: #0A3871;
         border-radius: 24px;
-
     }
+
     .descriptador{
         box-sizing: border-box;
         display: flex;
@@ -607,6 +610,7 @@ footer img{
         border: 1px solid #0A3871;
         border-radius: 24px;
     }
+
     .rectangle-1{
         display: flex;
         flex-direction: column;
@@ -620,6 +624,7 @@ footer img{
         top: 869.5px;
         display: none;
     }
+
     .rectangle-1 img{
         display: none;
     }
@@ -633,7 +638,7 @@ footer img{
         width: 263px;
         height: 122px;
         left: 24px;
-        top: 903.5px;  /* 707 1098*/
+        top: 903.5px;  
         background: #FFFFFF;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
@@ -648,12 +653,7 @@ footer img{
         font-size: 24px;
         line-height: 150%;
         color: #495057;
- 
-
     }
-
-    
-    
 
     .mensaje-1{
         width: 263px;
@@ -665,7 +665,6 @@ footer img{
         line-height: 120%;
         text-align: center;
         color: #343A40;
-
     }
 
     .mensaje-2{
@@ -679,9 +678,11 @@ footer img{
         text-align: center; 
         color: #495057;
     }
+
     .salto-linea2{
         display: inline-block;
     }
+
     .salto-linea3{
         display: block;
     }
@@ -712,4 +713,3 @@ footer img{
         color: #0A3871;    
     }
 }
-
