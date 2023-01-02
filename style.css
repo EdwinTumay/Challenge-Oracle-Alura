@@ -1,6 +1,7 @@
 
 body{
     background:#F3F5FC;
+    zoom: 75%; 
 }
 
 main{
@@ -295,6 +296,10 @@ footer img{
 
 /* Empieza responsivo */
 @media screen and (max-width: 768px) {
+    body{
+        zoom: 100%;
+    }
+
     main{
         width: auto;
         height: 1384px;
@@ -517,6 +522,11 @@ footer img{
 
 
 @media screen and (max-width: 404px) {
+    
+    body{
+        zoom: 100%;
+    }
+    
     main{
         position: relative;
         width: auto; 
