@@ -571,6 +571,9 @@ footer img{
         left: 16px;
         top: 645.5px; 
     }
+    .frame-1 h6 {
+        width: 229px;
+    }
 
     .frame-3{
         display: flex;
